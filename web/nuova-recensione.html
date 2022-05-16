@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+	<head>
+		<title>Scootercritic - About</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Dimitru">
+		<meta name="description" content="Il sito di recensioni di monopattini elettrici">
+		<meta name="keywords" content="monopattini, elettrici, recensioni">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header>
+		<a href="index.html">
+		<img title="Logo" alt="Logo di Scootercritic" src="img/logo.png" width="360" height="73">
+		</a>
+		</header>
+		<nav>
+			<p>Pagine del sito</p>
+			<ul>
+				
+				<li><a href="news.html">Notizie</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="chi-siamo.html">Chi siamo</a></li>
+				<li><a href="contatti.html">Contattaci</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</nav>
+		<div>
+			<h1>Nuova Recensione</h1>
+			<form action="index.html" method="post">
+			<label for="short">Titolo</label>
+			<input type="text" name="short" id="short" value="" />
+			<br>
+			<label for="long">Descrizione</label>
+			<textarea rows="4" cols="20" name="long" id="long">
+			</textarea>
+			<br>
+			<label for="modello">Modello:</label>
+			<select name="modello">
+				<option value="classic">CorriVeloce Classic</option>
+				<option value="roadster">DueRuote Roadster</option>
+				<option value="risoscooter">RisoPiccolo RisoScooter</option>
+			</select>
+			<label for="voto">Voto (da 1 a 5):</label>
+			<select name="voto">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+			<input  type="submit" value="Pubblica"/>
+			</form>
+		</div>
+	</body>
+</html>
