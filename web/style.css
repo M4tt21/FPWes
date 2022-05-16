@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 mag 2022, 12:47:57
+    Author     : kekko
+*/
+
+body
+{ 
+    background-color: #e4e4e4;
+    font: 17px/40px Arial, Heveltica, sans-serif;
+}
+
+h2
+{
+    color: #333333;
+    font: 25px/40px Arial, Heveltica, sans-serif;
+    font-weight: bold;
+}
+
+
+nav
+{
+    background-color: white;
+    text-align: center;
+}
+
+header
+{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#intro
+{
+    text-align: center;
+}
+
+#tag
+{
+    text-align: left;
+    background-color: white;
+}
+
+.stats
+{
+    color: #3a8f1e;
+    font-size: 22px;
+}
+
+nav li
+{
+    list-style-type: none;
+}
+
+nav li.active
+{
+    text-decoration: underline;
+}
+
+div li
+{
+    background-color: green;
+}
+
+a:link
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #111111;
+}
+
+a:visited
+{
+    color: red;
+}
+
+div a:visited
+{
+    color: green;
+}
+
+a:hover
+{
+    font-weight: bold;
+}
+
+::selection
+{
+    color: white;
+    background: green;
+}
+
+#contatti
+{
+    font-family: 'Poppins', sans-serif;
+}
