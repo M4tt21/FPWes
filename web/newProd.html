@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+	<head>
+        <title>Magic Navigation Menu</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="author" content="FrancescoMelis, MattiaSenis, DavidePiria">
+        <meta name="description" content="Negozio Ottica per lenti e montature">
+        <meta name="keywords" content="occhiali, lenti, vista, montature, sole">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+	<body>
+        <!--HEADER-->
+		<header>
+		<a href="index.html">
+		<img title="Logo" alt="Logo di Scootercritic" src="img/logo.png" width="360" height="73">
+		</a>
+                <h1>Nome dell'attività</h1>
+		</header>
+        <!--HEADER-->
+        <!--NAV-->
+		<nav>
+            <p>Pagine del sito</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="elencoProd.html">Elenco prodotti</a></li>
+                    <li><a href="info.html">Chi siamo</a></li>
+                </ul>
+		</nav>
+        <!--NAV-->
+
+
+
+        <!--CONT-->
+
+        <div>
+		    <h2>Nuovo Prodotto</h2>
+		        <form action="index.html" method="post">
+                    <label for="titolo">Titolo</label>
+                    <input type="text" name="titolo" id="titolo" value="" />
+                    <br>
+                    <label for="desc">Descrizione</label>
+                    <textarea rows="4" cols="20" name="desc" id="desc">
+                    </textarea>
+                    <br>
+                    <label for="taglia">Taglia</label>
+                    <select name="taglia">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <br>
+                    <label for="colore">Colore</label>
+                    <input type="text" name="colore" id="colore" value=""/>
+
+                    <br>
+                    <label for="prezzo">Prezzo</label>
+                    <input type="text" name="prezzo" id="prezzo" value="" />
+                    <br>
+                    <label for="immagine">Immagine</label>
+                    <input type="file" name="immagine" id="immagine" value="" />
+
+                    
+                    <input  type="reset" value="Cancel"/>
+                    <input  type="submit" value="Pubblica"/> 
+                </form>
+            </div>
+            <!--CONT-->
+
+
+            <!--FOOTER-->
+            <footer>
+                <h2>The Scam Team</h2>
+                <div><b>Mattia Senis</b>:<u>senismattia1@gmail.com</u></div>
+                <div><b>Francesco Melis</b>:<u>francesco.melis@live.it</u></div>
+                <div><b>Davide Piria</b>:<u>davidepiria@live.it</u></div>
+                <div><b>Samuele Starita</b>:<u>______</u></div>
+            </footer>
+            <!--FOOTER-->
+	</body>
+</html>
